@@ -1,0 +1,11 @@
+#+title: Doom
+
+* Config
+** map! macro
+*** :after
+- Uses ~eval-after-load~ semantics
+- Use the name of the file where =MODE= is defined
+*** :mode
+- Appends ~-map~ to the mode name
+- Use =MODE='s name. Should be the same as the ~(start-this-mode)~ function
+
