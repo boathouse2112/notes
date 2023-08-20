@@ -146,8 +146,6 @@
 - Add reserved onion
 - Add to dal
 - Garnish with cilantro, lemon juice
-** Make
-*** TODO <2023-08-22 Tue>
 * Malai Kofta :indian:
 :PROPERTIES:
 :source-url: https://www.veganricha.com/vegan-malai-kofta-recipe/
@@ -195,7 +193,7 @@
 6. Blend the mixture with 1/4 cup water, half the fenugreek leaves and sugar until smooth. Fold in the remaining fenugreek leaves.  (This sauce is incredibly versatile,  you can just add some chickpeas, baked tofu, roasted or par-cooked veggies and simmer and use!)
 7. Bring the blended sauce to a boil, add baked kofta balls and serve. Garnish with some cashew cream or other on dairy cream and cilantro. Serve with  Naan  or rice.   To store: store the balls and sauce Separately until ready to serve.
 
-* Easy Soda Bread :bread:
+* Soda Bread :bread:
 :PROPERTIES:
 :source-url: https://www.budgetbytes.com/easy-soda-bread/
 :servings: 2
@@ -222,3 +220,38 @@
 - Bake:
     - 10 minutes at 450
     - 20 minutes at 400
+
+* Burrito Bowl :mexican:
+:PROPERTIES:
+:source-url: https://www.budgetbytes.com/poor-mans-burrito-bowls/
+:servings: 3
+:time: short
+:END:
+** Ingredients
+- 2 cups uncooked rice
+- 1/2 tsp salt
+- 2 15oz cans black beans
+- 1/2 tsp ground cumin
+- 1/4 tsp garlic powder
+- 1 16oz jar salsa
+- 6 oz shredded cheese
+- 1 bunch green onions
+- 1 jalapeño
+** Directions
+- Bowl
+* Rice Pancakes
+:PROPERTIES:
+:source-url: https://www.budgetbytes.com/rice-pancakes/
+:servings:
+:time: short
+:END:
+** Ingredients
+- 1 1/2 cups cooked rice
+- 1 egg
+- 1/2 tsp vanilla
+- 1/2 tsp cinnamon
+- 1/4 tsp salt
+- 1 Tbsp oil
+** Directions
+- Rice, egg, vanilla, cinnamon
+- Cook on medium
