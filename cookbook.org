@@ -1,3 +1,35 @@
+
+* Pinto Bean Soup :soup:
+:PROPERTIES:
+:source-url: https://www.budgetbytes.com/pinto-bean-soup/
+:END:
+** Ingredients
+- 1 lb pinto beans
+- 4 cloves garlic
+- 2 tbsp olive oil
+- 1/2 tsp chili powder
+- 1/4 tsp cumin
+- 1/4 tsp oregano
+- 1/8 tsp cayenne
+- 2 cups vegetable broth
+
+*** TODO groceries
+- pinto beans
+- better than bouillon
+** Directions
+*** Beans
+- Instant pot 1 hour
+- Natural release 1/2 hour
+*** Soup
+- Blend 1/3 of the beans
+- Garlic
+  - 1 min
+- Chili powder, cumin, oregano, cayenne
+  - 1 min
+- Pinto beans, vegetable broth
+- Medium-high to boil
+  - Simmer on medium
+  - 15 mins
 * Pakora :indian:snack:
 :PROPERTIES:
 :source-url: https://www.veganricha.com/onion-fritters-simple-pleasures/
@@ -63,7 +95,7 @@
 :time: long
 :END:
 ** Ingredients
-*** TODO ingredients
+*** TODO groceries
 - Bay leaves
 *** Dal
   - 1 cup masoor dal
@@ -114,6 +146,8 @@
 - Add reserved onion
 - Add to dal
 - Garnish with cilantro, lemon juice
+** Make
+*** TODO <2023-08-22 Tue>
 * Malai Kofta :indian:
 :PROPERTIES:
 :source-url: https://www.veganricha.com/vegan-malai-kofta-recipe/
@@ -160,3 +194,4 @@
 5. Add the tomato, cashews, 1/4 cup water and salt and cook until the tomatoes are saucy, 5 to 6 minutes. Stir occasionally to avoid sticking. Cool slightly, then transfer to a blender.
 6. Blend the mixture with 1/4 cup water, half the fenugreek leaves and sugar until smooth. Fold in the remaining fenugreek leaves.  (This sauce is incredibly versatile,  you can just add some chickpeas, baked tofu, roasted or par-cooked veggies and simmer and use!)
 7. Bring the blended sauce to a boil, add baked kofta balls and serve. Garnish with some cashew cream or other on dairy cream and cilantro. Serve with  Naan  or rice.   To store: store the balls and sauce Separately until ready to serve.
+
