@@ -1,5 +1,5 @@
 
-* Pinto Bean Soup :soup:
+* Pinto Bean Soup :soup:beans:
 :PROPERTIES:
 :source-url: https://www.budgetbytes.com/pinto-bean-soup/
 :END:
@@ -57,16 +57,15 @@
 * Toor dal :indian:
 :PROPERTIES:
 :time: fast
+:servings: 4
 :END:
 ** Ingredients
-*** TODO Ingredients
-- Jeera seeds?
 *** Dal
 - 2 cups toor dal
-- 8 cups water
+- 5 cups water
 - salt
 *** Tempering
-- 1/2 tsp mustard/jeera seeds
+- 1/2 tsp mustard/jeera [= cumin] seeds
 - 1 large tomato -- chopped
 - large pinch hing
 - 8 curry leaves
@@ -236,10 +235,10 @@
 - 1 16oz jar salsa
 - 6 oz shredded cheese
 - 1 bunch green onions
-- 1 jalapeño
+- 1 jalapeno
 ** Directions
 - Bowl
-* Rice Pancakes
+* Rice Pancakes :breakfast:
 :PROPERTIES:
 :source-url: https://www.budgetbytes.com/rice-pancakes/
 :servings:
@@ -255,3 +254,108 @@
 ** Directions
 - Rice, egg, vanilla, cinnamon
 - Cook on medium
+
+* Vegan Red Beans and Rice :beans:
+:PROPERTIES:
+:source-url: https://www.budgetbytes.com/vegan-red-beans-rice/
+:time: long
+:END:
+** Ingredients
+- 2 Tbsp olive oil
+- 1 onion
+- 1 bell pepper
+- 4 stalks celery
+- 4 cloves garlic
+- 1 lb dry red beans
+- 6 cups vegetable broth
+- 1 tsp thyme
+- 1 tsp oregano
+- 1 bay leaf
+- 1/2 Tbsp smoked paprika
+- Freshly cracked pepper (about 10-15 cranks of a pepper mill)
+- pinch cayenne pepper
+- 6 cups cooked rice
+- 1 bunch green onions
+** Directions
+
+1. The night before, Place your beans in a large pot and fill with enough cool water to cover the beans by a few inches. Place the beans in the refrigerator to soak over night.
+2. When you're ready to cook, finely dice the celery, bell pepper, and onion, and mince the garlic. Cook the celery, bell pepper, onion, and garlic in a large pot with the olive oil over medium heat until softened (5-7 minutes).
+3. Drain the soaked beans in a colander and rinse with fresh, cool water. Add the rinsed beans to the pot with the vegetables. Also add the vegetable broth, thyme, oregano, bay leaf, smoked paprika, some freshly cracked pepper, and a pinch of cayenne pepper.
+4. Place a lid on the pot and bring it up to a full boil over high heat. After it reaches a boil, turn the heat down to low and allow the pot to simmer for at least two hours. Make sure the pot is simmering the entire time, increasing the heat if needed. Stir the pot occasionally to make sure nothing is sticking to the bottom. Keep the lid in place the entire time to keep the beans from drying out.
+5. After two hours (or longer if desired) the beans should be soft and tender. Mash some of the beans against the side of the pot with the back of a spoon. This will thicken the pot and make the classic, creamy texture of the dish. Remove the bay leaf and allow the pot to simmer for about 30 minutes more (after smashing) to help it thicken.
+6. To serve, add a scoop of red beans to a bowl and top with a scoop warm, cooked rice. Sprinkle sliced green onions over top and add a dash of hot sauce if desired.
+
+* Samosa :indian:snack:
+:PROPERTIES:
+:source-url: https://www.vegrecipesofindia.com/samosa-recipe-punjabi-samosa/
+:servings:
+:prep-time:
+:cook-time:
+:ready-in:
+:END:
+** Ingredients
+
+- 250 g flour
+- 1 tsp ajwain seeds [= carom]
+- 1 tsp salt
+- 6 Tbsp oil
+- 7 Tbsp water
+- 3 medium potatoes ~300 g
+- 1/2 c peas
+- 2 cups water –- for steaming
+- 1 Tbsp oil
+- 1/2 tsp cumin seeds
+- 1 tsp ginger
+- 1 chili
+- ▢ ½ teaspoon red chili powder or cayenne pepper
+- ▢ 1 pinch asafoetida (hing) – optional
+- ▢ 1 to 2 teaspoons dry mango powder (amchur)
+- ▢ salt as required
+- ▢ 1 tablespoon coriander leaves (cilantro), chopped
+- ▢ oil for deep frying – as required, any neutral flavored oil
+- ▢ ½ inch cinnamon
+- ▢ 1 clove – optional
+- ▢ 3 black peppercorns
+- ▢ 1 green cardamom
+- ▢ ½ teaspoon cumin seeds
+- ▢ ½ teaspoon fennel seeds
+- ▢ 2 teaspoons coriander seeds
+** Directions
+
+1. Take the flour, carom seeds, salt in a bowl. Mix well and add ghee.
+2. With your fingertips rub the ghee or oil in the flour to get a breadcrumb like consistency.
+3. The whole mixture should clump together when joined and not fall apart.
+4. Add water in parts and knead to a firm dough.
+5. If the dough looks dry or floury, then add 1 to 2 tablespoons more water and knead.
+6. Cover the dough with a moistened napkin and set aside for 30 minutes.
+7. Steam or boil the potatoes and peas till are cooked completely. Drain them of any extra water in a colander or sieve.
+8. Peel the boiled potatoes and chop them into small cubes
+9. Dry roast all the whole spices mentioned in the above list until fragrant taking care not to burn them.
+10. When the spices are warm or cool at room temperature, grind them in a dry grinder or coffee grinder to a semi-fine or fine powder.
+11. Heat oil in a pan. add the cumin seeds and crackle them.
+12. Add the ginger and green chillies. Sauté for a few seconds until the raw aroma of ginger goes away.
+13. Add the steamed green peas, red chili powder, the freshly ground spice powder, dry mango powder and asafoetida.
+14. Stir and sauté on a low heat for 1 to 2 minutes.
+15. Add the potato cubes. Mix very well and sauté for about 2 to 3 minutes on low heat with frequent stirring.
+16. Set aside the potato filling aside to cool at room temperature.
+17. After resting the dough for 30 minutes, divide the dough in 6 equal pieces.
+18. Take each piece and roll in your palms first to make a smooth ball.
+19. Then roll it with a rolling pin keeping the thickness to 1 mm throughout.
+20. Cut with a knife or a pastry cutter through the center of the rolled samosa pastry.
+21. With a brush or with your finger tips, spread some water all over the edges.
+22. Join the two straight ends forming a cone shape.
+23. Press the edges so that they get sealed well.
+24. Stuff the prepared samosa cone with the prepared potato-peas stuffing.
+25. Pinch a part on the edge (check the video & photos). This helps the samosa to stand once it is shaped.
+26. Press both the edges. Be sure there are no cracks.
+27. Prepare all the samosa this way and keep covered with a moist kitchen napkin.
+28. Now heat oil for deep frying in a kadai or pan. Once the oil becomes hot (test by adding a small piece of dough – it should come up quickly once added to the hot oil).   Gently slide the prepared stuffed samosa & quickly reduce the flame to low.
+29. Turn over in between and fry until golden. Drain the fried samosa on paper towels to remove excess oil.
+30. Fry them in batches. For frying the second batch, again increase the temperature of the oil to medium-heat. Do not overcrowd the pan while frying.
+31. Add the samosa and then lower the flame, thereby decreasing the temperature of oil.
+32. This way fry all the samosa in batches.
+33. Serve samosa hot or warm with coriander chutney, tamarind chutney or tomato ketchup.
+34. They can also be served with a yogurt dip or plain raita. Another way is to serve it with  chana masala (chickpea curry).
+35. We usually pair samosa with masala chai or ginger chai.
+36. Even bread or pav (Indian bread rolls) can be served with it.
+37. Whatever you serve samosa with, remember to have hot masala chai with it.

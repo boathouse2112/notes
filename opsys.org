@@ -1,0 +1,47 @@
+#+title: Operating Systems
+
+* Memory Structures
+** Global Descriptor Table [= GDT]
+Contains memory segment information.
+
+On a modern system, we want *no segmentation*
+    So, we create 2 "segments" -- code, and data, [which are misnomers ?]
+        code is RWX permissions
+        data is RW
+
+*** Global Descriptor Table Register [= GDTR]
+Pointer to the =GDT=
+
+|---------+--------|
+| 48 - 16 | 15 - 0 |
+|---------+--------|
+| Offset  | Size   |
+|---------+--------|
+
+**** Offset
+Vaddr of the GDT
+**** Size
+Size of table in Bytes, minus 1.
+GDT can be up to 65536 B, but not 0 B, so subtract 1.
+
+
+*** Table
+Array of 8 Byte segment descriptors
+First entry should be NULL
+    But maybe you can put the =GDTR= there
+
+|---------+---------|
+| Address | Content |
+|---------+---------|
+|       0 | NULL    |
+|       8 | Entry 1 |
+|      16 | Entry 2 |
+|      24 | Entry 3 |
+|     ... | ...     |
+|---------+---------|
+
+**** Segment Descriptor
+
+** Interrupt Descriptor Table [= IDT]
+
+*** Interrupt Descriptor Table Register [= IDTR]
