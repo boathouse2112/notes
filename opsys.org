@@ -24,7 +24,6 @@ Vaddr of the GDT
 Size of table in Bytes, minus 1.
 GDT can be up to 65536 B, but not 0 B, so subtract 1.
 
-
 *** Table
 Array of 8 Byte segment descriptors
 First entry should be NULL
@@ -42,6 +41,152 @@ First entry should be NULL
 
 **** Segment Descriptor
 
+|--------------+---------+---------------+-------------+--------------+-------------+--------------|
+| 63 - 56      | 55 - 52 | 51 - 48       | 47 - 40     | 39 - 32      | 31 - 16     | 15 - 0       |
+|--------------+---------+---------------+-------------+--------------+-------------+--------------|
+| Base 31 - 24 | Flags   | Limit 19 - 16 | Access Byte | Base 23 - 16 | Base 15 - 0 | Limit 15 - 0 |
+|--------------+---------+---------------+-------------+--------------+-------------+--------------|
+
+***** Base
+32-bit -- address where the segment begins
+***** Limit
+20-bit -- maximum addressable unit, in bytes or pages
+If you use page granularity, and set limit to 0xF_FFFF, you get a 4GB segment
+***** Flags
+
+|---+----+---+----------|
+| 3 |  2 | 1 |        0 |
+|---+----+---+----------|
+| G | DB | L | Reserved |
+|---+----+---+----------|
+
+****** G - Granularity
+0 -- Byte granularity -- =limit= is denominated in 1 Byte blocks
+1 -- Page granularity -- =limit= is denominated in 4KiB blocks
+****** DB - Size
+0 -- 16-bit protected mode segment
+1 -- 32-bit protected mode segment
+****** L - Long mode
+0 -- default
+1 -- 64-bit code segment
+******* TODO -- How does that work in x86?
+***** Access Byte
+
+|---+-------+---+---+----+----+---|
+| 7 | 6 - 5 | 4 | 3 |  2 |  1 | 0 |
+|---+-------+---+---+----+----+---|
+| P | DPL   | S | E | DC | RW | A |
+|---+-------+---+---+----+----+---|
+
+****** P - Present bit
+Must be set to 1 for a valid segment
+****** DPL - Descriptor privilege level
+=privilege level= of the segment
+****** E - Executable bit
+0 - non-executable data segment
+1 - executable code segment
+****** DC - Direction bit / Conforming bit
+******* For data segments -- direction bit
+0 - segment grows up
+1 - segment grows down (base > limit)
+******* For code segments -- conforming bit
+0 - Code can only be executed from the =privilege level= ring set in =DPL=
+1 - Code can be executed from an equal or lower =privilege level=
+****** RW - Readable bit / Writable bit
+******* For data segments -- writable bit
+0 - No write access
+1 - Write access
+Read access is always allowed for data segments
+******* For code segments -- readable bit
+0 - No read access
+1 - Read access
+Write is never allowed for code segments
+****** A - Accessed bit
+CPU will set this to 1 on access unless you do it first.
+If GDT descriptor is stored on a read-only page, that'll page-fault.
+Just set it to 1.
+
+*** Segment Selector
+Used to select a GDT entry
+
+|--------+----+-------|
+| 15 - 3 |  2 | 1 - 0 |
+|--------+----+-------|
+| Index  | TI | RPL   |
+|--------+----+-------|
+
+**** Index
+Bits 3-15 of the offset of the target segment into the GDT.
+Segments are 8 Bytes long, so the low 3 bits are always 0.
+[Want entry 2 of the GDT ->
+#+BEGIN_SRC rust
+    index = 0b0000_0000_0001_0      // Last 3 bits are dropped
+#+END_SRC
+?]
+**** Table Index [= TI]
+Which descriptor table to use.
+0 -> GDT
+1 -> Current =local descriptor table=
+**** Requested Privelege Level [= RPI]
+0 -> Ring 0 (kernel)
+3 -> Ring 3 (user)
+
 ** Interrupt Descriptor Table [= IDT]
+Pointers to interrupt code
+Entries are called gates
 
 *** Interrupt Descriptor Table Register [= IDTR]
+Pointer to the =IDT=
+
+|---------+--------|
+| 48 - 16 | 15 - 0 |
+|---------+--------|
+| Offset  | Size   |
+|---------+--------|
+
+**** Offset
+Vaddr of the IDT
+**** Size
+Size of table in Bytes, minus 1.
+
+*** Table
+Up to 255 8 Byte entries
+
+|---------+-----------|
+| Address | Content   |
+|---------+-----------|
+|       0 | Entry 1   |
+|       8 | Entry 2   |
+|      16 | Entry 3   |
+|      24 | Entry 4   |
+|     ... | ...       |
+|    2040 | Entry 255 |
+|---------+-----------|
+
+Accessing a missing table entry will trigger a =general protection fault=
+
+**** Gate Descriptor
+
+|--------------+---------+---------+----+-----------+----------+------------------+-------------|
+| 63 - 48      |      47 | 46 - 45 | 44 | 43 - 40   | 39 - 32  | 31 - 16          | 15 - 0      |
+|--------------+---------+---------+----+-----------+----------+------------------+-------------|
+| Offset 31-16 | Present | DPL     |  0 | Gate type | Reserved | Segment selector | Offset 15-0 |
+|--------------+---------+---------+----+-----------+----------+------------------+-------------|
+
+***** Offset
+Address of the entry point of the =interrupt service routine=
+***** Selector
+Segment selector pointing to the =GDT= entry you want to use
+***** Gate Descriptor
+What type of gate?
+5 valid values:
+0x5 -> =task gate=
+0x6 -> 16-bit =interrupt gate=
+0x7 -> 16-bit =trap gate=
+0xE -> 32-bit =interrupt gate=
+0xF -> 32-bit =trap gate=
+***** DPL
+Which =privelege levels= are allowed to access this interrupt via =INT= instruction.
+Hardware interrupts ignore this.
+***** Present
+Must be set to =1= for a valid descriptor
