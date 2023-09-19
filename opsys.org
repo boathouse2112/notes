@@ -78,10 +78,21 @@ If you use page granularity, and set limit to 0xF_FFFF, you get a 4GB segment
 | P | DPL   | S | E | DC | RW | A |
 |---+-------+---+---+----+----+---|
 
+|-------------+-----------------+-----------------+------------+------------------------+---------------------+----------|
+|           7 | 6 - 5           |               4 |          3 |                      2 |                   1 |        0 |
+|-------------+-----------------+-----------------+------------+------------------------+---------------------+----------|
+| Present bit | Privelege level | Descriptor type | Executable | Direction / Conforming | Readable / Writable | Accessed |
+|-------------+-----------------+-----------------+------------+------------------------+---------------------+----------|
+
 ****** P - Present bit
 Must be set to 1 for a valid segment
 ****** DPL - Descriptor privilege level
 =privilege level= of the segment
+******* TODO -- Level required to access this segment?
+Or level of instruction that can be executed from this segment?
+****** S - Descriptor type bit
+0 - system segment (Task State Segment, ...)
+1 - code/data segment
 ****** E - Executable bit
 0 - non-executable data segment
 1 - executable code segment
