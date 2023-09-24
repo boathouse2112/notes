@@ -1,0 +1,301 @@
+#+title: Readelf
+
+* ELF Format
+:LINKS:
+https://man7.org/linux/man-pages/man5/elf.5.html
+:end:
+** ELF header (Ehdr)
+
+#+BEGIN_SRC c
+#define EI_NIDENT 16 // Number of ELF identifier chars
+typedef struct {
+    unsigned char   e_ident[EI_NIDENT];
+    uint16_t        e_type;
+    uint16_t        e_machine;
+    uint32_t        e_version;
+    uint32_t        e_entry;
+    uint32_t        e_phoff;
+    uint32_t        e_shoff;
+    uint32_t        e_flags;
+    uint16_t        e_ehsize;
+    uint16_t        e_phentsize;
+    uint16_t        e_phnum;
+    uint16_t        e_shentsize;
+    uint16_t        e_shnum;
+    uint16_t        e_shstrndx;
+} Elf32_Ehdr;
+#+END_SRC
+
+*** e_ident
+=e_ident= is an array of bytes specifying how to interpret the file.
+#+BEGIN_SRC c
+e_ident {
+    EI_MAG0 = 0x7f;
+    EI_MAG1 = 'E';
+    EI_MAG2 = 'L';
+    EI_MAG3 = 'F';
+    EI_CLASS = u8; // 32/64 bit arch
+    EI_DATA = u8; // little/big endian
+    EI_VERSION = u8; // specification version
+    EI_OSABI = u8; // os and ABI
+    EI_ABIVERSION = u8; // ABI version
+    // padding bytes, from here to EI_NIDENT
+    // ...
+}
+#+END_SRc
+
+*** e_type
+ET_NONE -- unknown
+ET_REL -- relocatable
+ET_EXEC -- executable
+ET_DYN -- shared object
+ET_CORE -- core file (for core dumps?)
+
+*** e_machine
+EM_X86_64, ...
+*** e_version
+File version
+always EV_CURRENT = 1
+
+*** e_entry [= _start?]
+Virtual address to which the system transfers control
+*** e_phoff
+Program header table's file offset in B
+No program header table => 0
+*** e_shoff
+Section header table's file offset in B
+No section header table => 0
+*** e_flags
+Processor-specific flags. None have been defined.
+*** e_ehsize
+ELF header's size in bytes
+*** e_phentsize
+Size in B of each entry of the program header table
+*** e_phnum
+Number of entries in the program header table
+=e_phentsize * e_phnum = program_header_table_size=
+No program header -> =0=
+GTE =0xffff= entries -> =0xffff=, real number is held in section header table
+
+*** e_shentsize
+Section header's size in B
+*** e_shnum
+Number of section header entries
+*** e_shstrndx
+Index in the SHT of the entry associated with the section name string table.
+
+** Program Header (Phdr)
+Array of structs with segment information or other info needed to execute
+Only meaningful for EXE or DYN object files
+Each segment has 1+ sections
+
+#+BEGIN_SRC c
+typedef struct {
+    uint32_t    p_type;
+    uint32_t    p_offset;
+    uint32_t    p_vaddr;
+    uint32_t    p_paddr;
+    uint32_t    p_filesz;
+    uint32_t    p_memsz;
+    uint32_t    p_flags;
+    uint32_t    p_align;
+} Elf32_Phdr;
+#+END_SRC
+
+*** p_type
+**** PT_NULL
+Ignored entry
+**** PT_LOAD
+Loadable segment described by =p_filesz= and =p_memsz=.
+Bytes from the file are mapped to the beginning of the memory segment
+- Which file? This one?
+- Where in the file?
+- What's the memory segment? Like x86 segments?
+If =p_memsz= GT =p_filesz=, extra bytes are set to 0
+=p_filesz= can't be larger than =p_memsz=
+loadable segment entries in program header appear in ascending order, sorted on =p_vaddr=
+**** PT_DYNAMIC
+Specifies dynamic linking information
+**** PT_INTERP
+Specifies the location and size of a null-terminated pathname to invoke as an interpreter
+Usually used to call up the dynamic loader
+**** PT_NOTE
+Specifies the location of notes
+**** PT_SHLIB
+Reserved, illegal
+**** PT_PHDR
+Specifies the location & size of the program header table
+May only occur if the program header table is part of the memory image of the program
+Must precede any loadable segment image
+*** p_offset
+Offset in this file where the first byte of the segment resides
+*** p_vaddr
+Vaddr at which the first byte of the segment resides in memory
+*** p_paddr
+Paddr of this segment
+But actually it's set to the same as vaddr and ignored -- for user programs at least
+*** p_filesz
+Length of data to read from the file and map into memory
+*** p_memsz
+Size of the virtual memory allocation for this segment
+If =p_memsz= > =p_filesz=, extra space is used for =.bss= area
+*** p_flags
+Memory permission flags
+PF_X    executable
+PF_W    writeable
+PF_R    readable
+*** p_align
+Value to which the segments are aligned in memory and in the file
+
+** Section Header (Shdr)
+Lets you locate all the sections
+Array of =Elf32_Shrd=
+
+#+BEGIN_SRC c
+typedef struct {
+    uint32_t   sh_name;
+    uint32_t   sh_type;
+    uint32_t   sh_flags;
+    uint32_t   sh_addr;
+    uint32_t   sh_offset;
+    uint32_t   sh_size;
+    uint32_t   sh_link;
+    uint32_t   sh_info;
+    uint32_t   sh_addralign;
+    uint32_t   sh_entsize;
+} Elf32_Shdr;
+#+END_SRC
+
+*** sh_name
+Name of the section
+Index into the section header string table
+*** sh_type
+**** SHT_NULL
+Inactive, no associated section
+**** SHT_PROGBITS
+Information defined by the program, interpretation determined solely by program
+**** SHT_SYMTAB
+Symbol table
+Usually provides symbols for link editing
+    May be used for dynamic linking
+    May contain many symbols unnecessary for dynamic linking
+    Object file can also have =SHT_DYNSYM= section
+**** SHT_STRTAB
+Holds a string table
+Obj file can have multiple string table sections
+**** SHT_RELA
+Holds relocation entries w/ explict addends (???)
+**** SHT_HASH
+Holds a symbolic hash table
+Object that does dynamic linking must contain a =SHT_HASH=
+    Can only have 1
+**** SHT_DYNAMIC
+Dynamic linking info, only 1
+**** SHT_NOTE
+Holds notes
+**** SHT_NOBITS
+.bss
+**** SHT_REL
+Relocation offsets without explicit addends (???)
+**** SHT_SHLIB
+Reserved, unspecified semantics
+**** SHT_DYNSYM
+Minimal set of dynamic linking symbols
+    Can also have =SHT_SYMTAB= section
+
+*** sh_flags
+Bitflags
+**** SHF_WRITE -- Writable data
+**** SHF_ALLOC -- Occupies memory during execution
+**** SHF_EXECINSTR -- Contains executable instructions
+**** SHF_MASKPROC -- Processor-specific bits
+*** sh_addr
+Address of section in process memory
+*** sh_size
+Section's in-file size in bytes
+*** sh_link
+SHT index link -- interpretation depends on section type
+*** sh_info
+Extra information -- interpretation depends on section type
+*** sh_addralign
+Section alignment constraints
+"If a section holds a doubleword, the system must ensure doubleword alignment for the entire section"
+Value of =sh_addr= must be congruent to 0, modulo the value of =sh_addralign=
+Only 0 and powers of 2 are allowed.
+0 or 1 -> no alignment constraints
+*** sh_entsize
+Some sections have a table of fixed-size entries
+This gives the size in Bytes of each entry
+Otherwise, 0
+*** Special section types
+**** .bss
+=SH_NOBITS=
+=SHF_ALLOC= and =SHF_WRITE=
+
+Uninitialized data
+    Takes up process memory size
+**** .comment
+=SHT_PROGBITS=
+
+Version control information
+**** .ctors
+=SHT_PROGBITS=, =SHF_ALLOC= and =SHF_WRITE=
+
+Initialized pointers to C++ constructor functions
+**** .data
+=SHT_PROGBITS=
+=SHF_ALLOC= and =SHF_WRITE=
+
+Initialized data
+    Takes up process memory size
+**** .data1
+=SHT_PROGBITS=
+=SHF_ALLOC= and =SHF_WRITE=
+
+Unclear, probably same as =.data=
+**** .debug
+=SHT_PROGBITS=
+
+Information for symbolic debugging
+Unspecified contents
+**** .dtors
+=SHT_PROGBITS=
+=SHF_ALLOC= and =SHF_WRITE=
+**** .dynamic
+=SHF_DYNAMIC=
+=SHF_ALLOC=, processor-specific =SHF_WRITE=
+
+Dynamic linking information
+**** .dynstr
+=SHT_DYNSYM=
+=SHF_ALLOC=
+
+Strings needed for dynamic linking information
+**** .fini
+=SHT_PROGBITS=
+=SHF_ALLOC=, =SHF_EXECINSTR=
+
+Process termination code
+**** .gnu.version
+=SHT_GNU_versym=
+=SHF_ALLOC=
+
+Version symbol table
+Array of =uint16_t=
+**** .gnu.version_r
+Whatever
+**** got
+=SHT_PROGBITS=
+
+Global offset table (???)
+**** .hash
+=SHT_HASH=
+=SHF_ALLOC=
+
+Symbol hash table
+**** .init
+=SHT_PROGBITS=
+=SHF_ALLOC=, =SHT_PROGBITS=
+
+** Debugging info
+There is such a thing as the DWARF debugging standard

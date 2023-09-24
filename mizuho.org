@@ -7,6 +7,10 @@
 :LINKS:
 10 system failures -- https://medium.com/tokyo-fintech/the-chronicles-of-mizuhos-system-failures-dbc11c58a99b
 :end:
+
+In 2021 Mizuho bank, the 2nd/3rd ? largest bank in Japan, had a series of system failures, putting banking services offline for days.
+The string of failures culminated in multiple scathing statements by the national financial regulator, and the resignation of the Mizuho CEO
+
 ** 2021-02-28 -- Broken ATMs -- Eating cash cards
 
 ** 2023-03-07 -- Failed ATMS
@@ -44,7 +48,6 @@ Direct causes of the series of the recent system failures are found as follows:
     The Bank has not developed a maintenance and operation structure to ensure stable operation of its new core system (hereinafter "MINORI"), such as failing to correct problems in system maintenance and operation and to govern outsourcees sufficiently.
 
     The Bank has failed to verify its preparedness for emergencies sufficiently through drills and training.
-****
 ** Resignations
 :LINKS:
 https://www.reuters.com/markets/asia/japan-regulator-reprimand-mizuho-again-ceo-resign-nikkei-2021-11-18/

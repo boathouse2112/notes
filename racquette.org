@@ -1,0 +1,26 @@
+#+title: Racquette
+
+* Articles
+** From the Archives
+*** 1941 handbook -- rules for ladies
+** Data Journalism
+*** Suny data?
+
+* Administrative
+** Location Data
+When we pick up last week's issues during distribution, mark down how many came from each location
+
+Could just stick it in discord
+** Old issues
+Should try and scrape to pdf
+** Advertising volume
+We used to have many more ads
+Should try and plot ads per issue per year
+
+** Indesign
+*** Templates
+Can we enforce *more* in the templates?
+** Website
+Getinvolved is /fine/, but...
+I should try and see the upload process at least.
+    Steven does that right?
