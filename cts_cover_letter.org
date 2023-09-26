@@ -1,0 +1,33 @@
+#+title: Cts Cover Letter
+
+* Description
+Experience:
+    Customer service
+    Troubleshooting
+    Problem Solving
+    Critical Thinking
+    Communication
+    Organization
+
+* Cover Letter
+Hello,
+
+I'm very excited to apply for the position of Service Desk Technitcian with SUNY Potsdam Computing & Technology Services.
+I'm a new transfer student into the BS Computer Science program at Potsdam, and I would love the opportunity to put my skills to work helping my fellow students.
+
+While I haven't worked directly in a helpdesk role, my education and my hobyist interest in software has led to a good familiarity with both Windows and Unix systems, and a general facility for troubleshooting.
+I have also had two work experiences that I think prepare me especially well for the requirements of the position.
+Through much of my time at Northeastern University, I worked as a teaching assistant for the Fundamentals of Computer Science I course.
+I had a great working with students develop their understanding of computer programming, but because it was an introductory course, I also spent a lot of time helping to set up and troubleshoot the development environment.
+For many students, this was the first exposure they'd had to computer science, and so students came with a range of computer abilities.
+[ TODO -- Fix sentence ]
+From January 2020 through that June, I also had the opportunity to work as a research assistant at a university psycholinguistics department in Kaiserslautern, Germany, and to continue working with them remotely through September 2021.
+At that position, I gained experience in technical writing -- documenting programming techniques for analyzing the research data, and also developing an annotation scheme for marking certain linguistic structures.
+I then taught this annotation scheme to the student workers with whom I annotated the data, so I got to see which aspects of my writing and explanations were unclear, and to circle back and improve them.
+I these experiences have really helped me learn to evaluate where people are at technically, and to help them resolve their problems in a way that is friendly and understandable.
+
+I expect to graduate in Spring or Fall of 2025, and I'd be interested in continuing to work with CTS through the rest of my education.
+I also wanted to note that I've attached my current work availability, but that I have a Tuesday/Thursday 2:00-2:50pm PhysEd class that ends after October 17, so after that date I'll have those times available.
+
+Thank you for your consideration,
+Mark Murphy
