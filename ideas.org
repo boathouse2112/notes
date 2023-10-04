@@ -1,0 +1,12 @@
+#+title: Ideas
+
+* CS
+** OS
+*** Filesystems
+Use FUSE for userspace filesystems
+**** In-Memory filesystem
+Easier?
+Could save to a file, like sqlite
+**** Tag-based filesystem
+** Zig
+*** Comptime debugger

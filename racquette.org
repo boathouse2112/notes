@@ -1,5 +1,10 @@
 #+title: Racquette
 
+Page 4 just needs the picture of masaweebi
+5 is all good
+6 is all good?
+7 has to be started
+
 * Articles
 ** From the Archives
 *** 1941 handbook -- rules for ladies
@@ -24,3 +29,20 @@ Can we enforce *more* in the templates?
 Getinvolved is /fine/, but...
 I should try and see the upload process at least.
     Steven does that right?
+
+* PDF Export
+Sometimes when you import a pdf to indesign, it's super blurry
+But not on my computer
+Why is it working on my computer???
+
+** Get .indd's open together
+** Screen view >  preview mode
+Check font, spacing, ...
+Save all the changes
+*** TODO Can we check all the fonts in one go?
+Or force Times New Roman?
+** Pages > hamburger menu > move pages
+** Save combined document to new .indd
+** Export to PDF
+Adobe PDF (Print)
+** Preview before emailing
