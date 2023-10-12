@@ -1,0 +1,39 @@
+#+title: Transit Passes
+
+* History
+:LINKS:
+https://en.wikipedia.org/wiki/CharlieCard
+https://en.wikipedia.org/wiki/MetroCard#cite_note-49
+https://www.reddit.com/r/AskNYC/comments/nsicuj/technologically_how_does_a_metrocard_work/
+:end:
+** Boston -- Tokens
+Token sales ended in 2003
+Moved to contactless charliecard then???
+** NYC -- Metrocard
+Still in use
+Magnetic stripe -- like old credit cards
+Info stored on card, and in database
+Read heads at front of swipe to read data
+Write heads at back of swipe to update data
+
+* Present
+Modern subway systems use NFC contactless payment systems, like tap-to-pay credit cards.
+
+** NFC -- Mifare
+:LINKS:
+https://en.wikipedia.org/wiki/MIFARE
+:end:
+Stores data on integrated circuit chips
+
+Very common
+    Boston, Chicago, London, Beijing, Seoul until 2014
+
+** EMV Contactless (Europay Mastercard Visa) & Open Loop
+:LINKS:
+https://en.wikipedia.org/wiki/EMV
+https://atadistance.net/2022/01/30/hidden-assumptions/
+:end:
+Used for contactless credit cards
+NFC Type A
+
+MTA Omny card (releases 2022)
