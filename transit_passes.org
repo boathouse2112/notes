@@ -1,4 +1,9 @@
 #+title: Transit Passes
+:LINKS:
+https://paymentnavi.com
+https://atadistance.net
+https://www.mobility-payments.com
+:end:
 
 * History
 :LINKS:
@@ -17,7 +22,7 @@ Read heads at front of swipe to read data
 Write heads at back of swipe to update data
 
 * Present
-Modern subway systems use NFC contactless payment systems, like tap-to-pay credit cards.
+Modern subway systems use NFC contactless payment systems (IC Cards), like the tap-to-pay credit cards.
 
 ** NFC -- Mifare
 :LINKS:
@@ -37,3 +42,13 @@ Used for contactless credit cards
 NFC Type A
 
 MTA Omny card (releases 2022)
+
+** FeliCa -- NFC type F
+*** Japan -- Suica, Pasmo
+:LINKS:
+https://web.archive.org/web/20090725113223/http://www.jreast.co.jp/e/development/story/p5.html
+:end:
+
+2001
+
+* Mobile

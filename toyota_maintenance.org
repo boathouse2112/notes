@@ -1,0 +1,66 @@
+#+title: Toyota Maintenance
+
+:LINKS:
+https://www.youtube.com/watch?v=TevK-u3vkx4
+:end:
+
+* Tire Pressure
+Check tire pressure
+
+* Parking Brake
+Complete stop
+Stop car in drive
+Put in neutral
+Put on parking break
+
+* Warm up transmission
+Give a few minutes in the cold
+
+* Stuck in snow
+Don't spin wheels
+
+* Oil Changes
+Every 5k miles / 6 months
+Good quality oil -- Toyota official oil?
+
+* Transmission Fluid
+60k miles / 6 years
+Overdoing transmission fluid replacement is bad
+Stick with original fluid
+
+* Coolant
+(Pink coolant?)
+50k miles / 5 years
+Old coolant becomes acidic
+    Can chew up water pump
+    External coolant leak
+    Coolant leak in combustion chamber
+
+* Differential & Transfer Case Fluid
+Don't need -- not AWD
+Every 30k miles
+
+* Brake Fluid
+Test for moisture content?
+Every 3-5 years
+
+* Power Steering Fluid
+Electric power steering -- No Fluid
+
+* Spark Plugs
+120k miles / 10 years
+Use original spark plugs
+
+* Other considerations
+Have car inspected every year
+    Preferably twice / year
+        Every service
+
+* Non car people
+Keep an eye on things
+Ask
+    What kind of fluid are you using?
+    What kind of maintenance are you performing?
+Keep a log of maintenance
+    Oil change -- miles, date
+    Transmission fluid change

@@ -8,5 +8,10 @@ Use FUSE for userspace filesystems
 Easier?
 Could save to a file, like sqlite
 **** Tag-based filesystem
+*** Lisp Machine
+:LINKS:
+https://www.piumarta.com/software/maru/
+http://bootstrappable.org
+:end:
 ** Zig
 *** Comptime debugger
