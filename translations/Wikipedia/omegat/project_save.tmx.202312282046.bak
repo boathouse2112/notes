@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="6.0.0_0_1bf1729c" segtype="sentence" srclang="ja"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="ja">
+        <seg>{{ダム|
+| 画像=[[Image:Katagiri Dam 2006-10.jpg|300px|片桐ダム]]
+| 所在地=左岸: [[長野県]][[下伊那郡]][[松川町]]上片桐
+| 座標={{ウィキ座標2段度分秒|35|37|15|N|137|51|27|E}}
+| 河川=[[天竜川]][[水系]][[片桐松川]]
+| ダム湖=松川湖
+| ダム形式=[[重力式コンクリートダム]]
+| 堤高=59.2
+| 堤頂長=250.0
+| 堤体積=211,000
+| 総貯水容量=1,840,000
+| 有効貯水容量=1,310,000
+| 流域面積=15.1
+| 湛水面積=10
+| 利用目的=[[洪水調節]]・[[放流 (ダム)#不特定利水|不特定利水]]・[[上水道]]
+| 事業主体=[[長野県]]
+| 電気事業者=－
+| 発電所名（認可出力）=－
+| 施工業者=[[熊谷組]]・[[不動建設]]・[[吉川建設]]
+| 着工年=1976年
+| 竣工年=1989年
+| 備考=総事業費: 139億円
+}}</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20231229T014610Z" creationid="boathouse" creationdate="20231229T012506Z">
+        <seg>{{Infobox dam
+| name			= Katagiri Dam
+| image			= Katagiri Dam 2006-10.jpg
+| location_map                         = 
+| location_map_size                    = 
+| location_map_caption                 = 
+| location_map_alt                     = 
+| coordinates                          = &lt;!-- {{coord|..|..|type:landmark|display=inline,title}}--&gt;
+| country                              = 
+| location                             = 
+| purpose                              = 
+| status                               = 
+| construction_began                   = 
+| opening                              = 
+| demolished                           = 
+| cost                                 = 
+| builder                              = 
+| designed_by                          = 
+| owner                                = 
+| operator                             = 
+| dam_type                             = 
+| dam_crosses                          = 
+| dam_height_foundation                = 
+| dam_height_thalweg                   = 
+| dam_length                           = 
+| dam_elevation_crest                  = 
+| dam_width_crest                      = 
+| dam_width_base                       = 
+| dam_volume                           = 
+| spillway_count                       = 
+| spillway_type                        = 
+| spillway_length                      = 
+| spillway_capacity                    = 
+| spillway_volumetric_flow_rate        = 
+| spillway_type2                       = 
+| spillway_length2                     = 
+| spillway_capacity2                   = 
+| spillway_volumetric_flow_rate2       = 
+| spillway_type3                       = 
+| spillway_length3                     = 
+| spillway_capacity3                   = 
+| spillway_volumetric_flow_rate3       = 
+| res_name                             = 
+| res_capacity_total                   = 
+| res_capacity_active                  = 
+| res_capacity_inactive                = 
+| res_catchment                        = 
+| res_surface                          = 
+| res_max_length                       = 
+| res_max_width                        = 
+| res_max_depth                        = 
+| res_elevation                        = 
+| res_tidal_range                      = 
+| lower_dam_type                       = 
+| lower_dam_crosses                    = 
+| lower_dam_height_foundation          = 
+| lower_dam_height_thalweg             = 
+| lower_dam_length                     = 
+| lower_dam_elevation_crest            = 
+| lower_dam_width_crest                = 
+| lower_dam_width_base                 = 
+| lower_dam_volume                     = 
+| lower_spillway_count                 = 
+| lower_spillway_type                  = 
+| lower_spillway_length                = 
+| lower_spillway_capacity              = 
+| lower_spillway_volumetric_flow_rate  = 
+| lower_spillway_type2                 = 
+| lower_spillway_length2               = 
+| lower_spillway_capacity2             = 
+| lower_spillway_volumetric_flow_rate2 = 
+| lower_spillway_type3                 = 
+| lower_spillway_length3               = 
+| lower_spillway_capacity3             = 
+| lower_spillway_volumetric_flow_rate3 = 
+| lower_res_name                       = 
+| lower_res_capacity_total             = 
+| lower_res_capacity_active            = 
+| lower_res_capacity_inactive          = 
+| lower_res_catchment                  = 
+| lower_res_surface                    = 
+| lower_res_max_length                 = 
+| lower_res_max_width                  = 
+| lower_res_max_depth                  = 
+| lower_res_elevation                  = 
+| lower_res_tidal_range                = 
+| plant_name                           = 
+| plant_coordinates                    = &lt;!-- {{coord|..|..|type:landmark|display=inline}}--&gt;
+| plant_operator                       = 
+| plant_commission                     = 
+| plant_decommission                   = 
+| plant_type                           = 
+| plant_hydraulic_head                 = 
+| plant_turbines                       = 
+| plant_pumpgenerators                 = 
+| plant_pumps                          = 
+| plant_capacity                       = 
+| plant_capacity_factor                = 
+| plant_efficiency                     = 
+| plant_storage_hours                  = 
+| plant_annual_gen                     = 
+| plant_annual_gen_year                = 
+| website                              = 
+| extra                                = 
+}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ja">
+        <seg>{{出典の明記| date = 2022-12}}</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20231229T012431Z" creationid="boathouse" creationdate="20231229T012431Z">
+        <seg>TODO: template -- additional citations needed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ja">
+        <seg>{{出典の明記| date = 2022-12}}
+{{ダム|
+| 画像=[[Image:Katagiri Dam 2006-10.jpg|300px|片桐ダム]]
+| 所在地=左岸: [[長野県]][[下伊那郡]][[松川町]]上片桐
+| 座標={{ウィキ座標2段度分秒|35|37|15|N|137|51|27|E}}
+| 河川=[[天竜川]][[水系]][[片桐松川]]
+| ダム湖=松川湖
+| ダム形式=[[重力式コンクリートダム]]
+| 堤高=59.2
+| 堤頂長=250.0
+| 堤体積=211,000
+| 総貯水容量=1,840,000
+| 有効貯水容量=1,310,000
+| 流域面積=15.1
+| 湛水面積=10
+| 利用目的=[[洪水調節]]・[[放流 (ダム)#不特定利水|不特定利水]]・[[上水道]]
+| 事業主体=[[長野県]]
+| 電気事業者=－
+| 発電所名（認可出力）=－
+| 施工業者=[[熊谷組]]・[[不動建設]]・[[吉川建設]]
+| 着工年=1976年
+| 竣工年=1989年
+| 備考=総事業費: 139億円
+}}
+'''片桐ダム'''（かたぎりダム）は、[[長野県]][[下伊那郡]][[松川町]]、[[天竜川]][[水系]][[片桐松川]]に建設された[[ダム]]。</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20231229T011958Z" creationid="boathouse" creationdate="20231229T011549Z">
+        <seg>{{Infobox dam}}</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

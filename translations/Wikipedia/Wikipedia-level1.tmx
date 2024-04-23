@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="6.0.0_0_1bf1729c" segtype="sentence" srclang="ja"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="ja">
+        <seg>'''片桐ダム'''（かたぎりダム）は、[[長野県]][[下伊那郡]][[松川町]]、[[天竜川]][[水系]][[片桐松川]]に建設された[[ダム]]。</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20231229T034844Z" creationid="boathouse" creationdate="20231229T034225Z">
+        <seg>The '''Katagiri Dam''' ({{lang-ja|片桐ダム}}) is a {{convert|59.2|m|f|abbr=on}} high [[gravity dam]] located on the [[Katagirimatsu River]] in [[Nagano Prefecture]], [[Japan]].
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ja">
+        <seg>{{ダム|</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20231229T014629Z" creationid="boathouse" creationdate="20231229T014629Z">
+        <seg>{{Infobox dam</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ja">
+        <seg>{{出典の明記| date = 2022-12}}</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20231229T022738Z" creationid="boathouse" creationdate="20231229T022738Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ja">
+        <seg>| 座標={{ウィキ座標2段度分秒|35|37|15|N|137|51|27|E}}</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20231229T020325Z" creationid="boathouse" creationdate="20231229T020325Z">
+        <seg>| coordinates = {{coord|35|37|15|N|137|51|27|E}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ja">
+        <seg>| 所在地=左岸: [[長野県]][[下伊那郡]][[松川町]]上片桐</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20231229T025601Z" creationid="boathouse" creationdate="20231229T020132Z">
+        <seg>| location = TODO -- where?, [[Shimoina District]], [[Nagano Prefecture]], [[Japan]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ja">
+        <seg>| 河川=[[天竜川]][[水系]][[片桐松川]]</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20231229T023053Z" creationid="boathouse" creationdate="20231229T023053Z">
+        <seg>TODO -- How to distribute rivers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ja">
+        <seg>| 画像=[[Image:Katagiri Dam 2006-10.jpg|300px|片桐ダム]]</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20231229T015206Z" creationid="boathouse" creationdate="20231229T014757Z">
+        <seg>| image = Katagiri Dam 2006-10.jpg
+TODO -- Does the image render correctly?</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

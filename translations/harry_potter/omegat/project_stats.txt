@@ -1,0 +1,14 @@
+2/11/24, 6:30 PM
+Project Statistics
+
+                 	Segments	 Words	Characters (w/o spaces)	Characters (w/ spaces)	#Files	
+Total:           	   10075	121508	                 291757	                291978	     1	
+Remaining:       	   10068	121434	                 291580	                291801	     1	
+Unique:          	    9448	121230	                 290428	                290649	     1	
+Unique Remaining:	    9441	121156	                 290251	                290472	     1	
+
+
+Individual File Statistics:
+
+File Name           	Total Segments	Remaining Segments	Unique Segments	Unique Remaining Segments	Total Words	Remaining Words	Unique Words	Unique Remaining Words	Total Characters (w/o spaces)	Remaining Characters (w/o spaces)	Unique Characters (w/o spaces)	Unique Remaining Characters (w/o spaces)	Total Characters (w/ spaces)	Remaining Characters (w/ spaces)	Unique Characters (w/ spaces)	Unique Remaining Characters (w/ spaces)	
+himitsu_no_heya.docx	         10075	             10068	           9448	                     9441	     121508	         121434	      121230	                121156	                       291757	                           291580	                        290428	                                  290251	                      291978	                          291801	                       290649	                                 290472	

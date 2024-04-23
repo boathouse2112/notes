@@ -1,0 +1,10 @@
+2/11/24, 4:27 PM
+            	Segments	 Words	Characters (w/o spaces)	Characters (w/ spaces)	
+Repetitions:	     610	   247	                   1234	                  1234	
+Exact match:	       7	    74	                    177	                   177	
+95%-100%:   	       0	     0	                      0	                     0	
+85%-94%:    	       0	     0	                      0	                     0	
+75%-84%:    	       0	     0	                      0	                     0	
+50%-74%:    	       0	     0	                      0	                     0	
+No match:   	    9458	121187	                 290346	                290567	
+Total:      	   10075	121508	                 291757	                291978	

@@ -1,0 +1,4 @@
+# Glossary in tab-separated format -*- coding: utf-8 -*-
+プリベット通り	Privet Drive
+ダーズリー	Dursley
+バーノン・ダーズリー	Vernon Dursley

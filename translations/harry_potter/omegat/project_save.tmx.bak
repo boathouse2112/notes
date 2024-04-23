@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="6.1.0_0_c0b2a3f95" segtype="sentence" srclang="ja"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="ja">
+        <seg>「今週に入って三回目だぞ！</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20240211T183714Z" creationid="boathouse" creationdate="20240211T183714Z">
+        <seg>l</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ja">
+        <seg>しかし、いまのプリベット通りでの生活は最低の最低だ。</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20240211T183826Z" creationid="boathouse" creationdate="20240211T183826Z">
+        <seg>But life in Privet Drive was the worst of the worst.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ja">
+        <seg>ダーズリー&lt;t3/>家&lt;t4/>け&lt;t5/>の&lt;t6/>息&lt;t7/>むす&lt;t8/>子&lt;t9/>こ&lt;t10/>、ダドリーだ。</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20240211T185150Z" creationid="boathouse" creationdate="20240211T185150Z">
+        <seg>The Dursley's only son was named Dudley.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ja">
+        <seg>バーノン・ダーズリー&lt;t3/>氏&lt;t4/>し&lt;t5/>は、&lt;t6/>甥&lt;t7/>おい&lt;t8/>のハリーの&lt;t9/>部&lt;t10/>へ&lt;t11/>屋&lt;t12/>や&lt;t13/>から聞こえるホーホーという大きな鳴き声で、&lt;t14/>早&lt;t15/>はや&lt;t16/>々&lt;t17/>ばや&lt;t18/>と起こされてしまったのだ。</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20240211T185256Z" creationid="boathouse" creationdate="20240211T185256Z">
+        <seg>Veronon Dursley had been woken up early by the screeching of his nephew's owl.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ja">
+        <seg>プリベット通り四番地。</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20240211T184536Z" creationid="boathouse" creationdate="20240211T184536Z">
+        <seg>4 Privet Drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ja">
+        <seg>朝食の&lt;t0/>席&lt;t1/>せき&lt;t2/>で今朝もまたいざこざが始まった。</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20240211T184501Z" creationid="boathouse" creationdate="20240211T184003Z">
+        <seg>Trouble had started today too at the breakfast table</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

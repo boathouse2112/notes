@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="6.0.0_0_1bf1729c" segtype="sentence" srclang="ja"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="ja">
+        <seg>{{出典の明記| date = 2022-12}}
+{{ダム|
+| 画像=[[Image:Katagiri Dam 2006-10.jpg|300px|片桐ダム]]
+| 所在地=左岸: [[長野県]][[下伊那郡]][[松川町]]上片桐
+| 座標={{ウィキ座標2段度分秒|35|37|15|N|137|51|27|E}}
+| 河川=[[天竜川]][[水系]][[片桐松川]]
+| ダム湖=松川湖
+| ダム形式=[[重力式コンクリートダム]]
+| 堤高=59.2
+| 堤頂長=250.0
+| 堤体積=211,000
+| 総貯水容量=1,840,000
+| 有効貯水容量=1,310,000
+| 流域面積=15.1
+| 湛水面積=10
+| 利用目的=[[洪水調節]]・[[放流 (ダム)#不特定利水|不特定利水]]・[[上水道]]
+| 事業主体=[[長野県]]
+| 電気事業者=－
+| 発電所名（認可出力）=－
+| 施工業者=[[熊谷組]]・[[不動建設]]・[[吉川建設]]
+| 着工年=1976年
+| 竣工年=1989年
+| 備考=総事業費: 139億円
+}}
+'''片桐ダム'''（かたぎりダム）は、[[長野県]][[下伊那郡]][[松川町]]、[[天竜川]][[水系]][[片桐松川]]に建設された[[ダム]]。</seg>
+      </tuv>
+      <tuv lang="en-US" changeid="boathouse" changedate="20231229T011958Z" creationid="boathouse" creationdate="20231229T011549Z">
+        <seg>{{Infobox dam}}</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

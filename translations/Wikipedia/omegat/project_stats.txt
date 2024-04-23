@@ -1,0 +1,14 @@
+2/11/24, 1:34 PM
+Project Statistics
+
+                 	Segments	Words	Characters (w/o spaces)	Characters (w/ spaces)	#Files	
+Total:           	      47	  610	                   2297	                  2361	     1	
+Remaining:       	      39	  509	                   1826	                  1872	     1	
+Unique:          	      47	  610	                   2297	                  2361	     1	
+Unique Remaining:	      39	  509	                   1826	                  1872	     1	
+
+
+Individual File Statistics:
+
+File Name	Total Segments	Remaining Segments	Unique Segments	Unique Remaining Segments	Total Words	Remaining Words	Unique Words	Unique Remaining Words	Total Characters (w/o spaces)	Remaining Characters (w/o spaces)	Unique Characters (w/o spaces)	Unique Remaining Characters (w/o spaces)	Total Characters (w/ spaces)	Remaining Characters (w/ spaces)	Unique Characters (w/ spaces)	Unique Remaining Characters (w/ spaces)	
+片桐ダム.UTF8	            47	                39	             47	                       39	        610	            509	         610	                   509	                         2297	                             1826	                          2297	                                    1826	                        2361	                            1872	                         2361	                                   1872	
