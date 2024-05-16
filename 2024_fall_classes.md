@@ -1,19 +1,14 @@
 # Fall 2024 classes
 
-## Still required
-- CIS 300 -- Foundations [= a CS elective]
-- CIS 301 -- Theory of Computation
-- CIS 405 -- Software engineering
-- CIS 443 -- Programming Languages
-- Capstone
-- 1 more CS elective
-- Advanced math class
-  - MATH 253 -- Multivariate Calculus
-  - MATH 375 -- Linear Algebra
-  - MATH 423 -- Modern Algebra 1
+## Fall 2024
+CIS 301 Theory of Computation
+CIS 421 Artificial Intelligence
+MATH 340 Set Theory
+CIS 300 Foundations of Computer Science
+PE credit
 
-## Offered in Fall
-- Theory of Computation
-- AI
-- (Linear algebra?)
-- Clarkson Database systems
+## Spring 2025
+CIS 405 Software Engineering
+CIS 443 Programming Languages
+MATH 253 Multivariate Calculus
+CIS 480 Senior Project
